@@ -1,0 +1,214 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 28 14:11:58 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>110 seconds (110447 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC1_02_PHB_Click_Showcase()'><b>TC1_02_PHB_Click_Showcase</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>0</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC1_03_PHB_Click_Onboarding()'><b>TC1_03_PHB_Click_Onboarding</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>0</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC1_04_PHB_What_should_we_call_you()'><b>TC1_04_PHB_What_should_we_call_you</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>5</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC1_05_PHB_Gender_selection_Female()'><b>TC1_05_PHB_Gender_selection_Female</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>1</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC1_06_PHB_Click_My_partner_and_I_are_planning_to_have_a_baby()'><b>TC1_06_PHB_Click_My_partner_and_I_are_planning_to_have_a_baby</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>4</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC1_07_PHB_How_long_have_you_been_trying_to_conceive()'><b>TC1_07_PHB_How_long_have_you_been_trying_to_conceive</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>2</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC1_08_PHB_Click_Next()'><b>TC1_08_PHB_Click_Next</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>0</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC1_09_PHB_Is_this_your_first_child()'><b>TC1_09_PHB_Is_this_your_first_child</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>0</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC1_10_PHB_Lastly_how_old_are_you()'><b>TC1_10_PHB_Lastly_how_old_are_you</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>3</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC1_11_PHB_Select_Interests()'><b>TC1_11_PHB_Select_Interests</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>4</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC1_12_PHB_Click_Terms_Conditions()'><b>TC1_12_PHB_Click_Terms_Conditions</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>0</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC1_13_PHB_Click_Continue()'><b>TC1_13_PHB_Click_Continue</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>0</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC1_14_PHB_Click_Terms_conditions_Close()'><b>TC1_14_PHB_Click_Terms_conditions_Close</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>0</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC2_01_PRG_Click_Showcase()'><b>TC2_01_PRG_Click_Showcase</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>0</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC2_02_PRG_Click_onboarding()'><b>TC2_02_PRG_Click_onboarding</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>0</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC2_03_PRG_What_should_we_call_you()'><b>TC2_03_PRG_What_should_we_call_you</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>4</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC2_04_PRG_Gender_selection_Female()'><b>TC2_04_PRG_Gender_selection_Female</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>1</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC2_05_PRG_Click_My_partner_and_I_are_pregnant()'><b>TC2_05_PRG_Click_My_partner_and_I_are_pregnant</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>2</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC2_06_PRG_Do_you_know_your_due_date()'><b>TC2_06_PRG_Do_you_know_your_due_date</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>4</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC2_07_PRG_Click_Next()'><b>TC2_07_PRG_Click_Next</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>0</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC2_08_PRG_Is_this_your_first_child_Select_Yes()'><b>TC2_08_PRG_Is_this_your_first_child_Select_Yes</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>0</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC2_09_PRG_Lastly_how_old_are_you()'><b>TC2_09_PRG_Lastly_how_old_are_you</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>2</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC2_10_PRG_Select_Interests()'><b>TC2_10_PRG_Select_Interests</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>3</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC2_11_PRG_Click_Terms_Conditions()'><b>TC2_11_PRG_Click_Terms_Conditions</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>0</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC2_12_PRG_Click_Continue()'><b>TC2_12_PRG_Click_Continue</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>0</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.OnboardingFF.TC2_13_PRG_Click_Terms_conditions_Close()'><b>TC2_13_PRG_Click_Terms_conditions_Close</b><br>Test class: com.mobileAutomation.OnboardingFF</td>
+<td></td>
+<td>0</td>
+<td>com.mobileAutomation.OnboardingFF@5af97850</td></tr>
+<tr>
+<td title='com.mobileAutomation.Common.TC_01_Verify_LaunchApp()'><b>TC_01_Verify_LaunchApp</b><br>Test class: com.mobileAutomation.Common</td>
+<td></td>
+<td>43</td>
+<td>com.mobileAutomation.Common@17c386de</td></tr>
+</table><p>
+</body>
+</html>

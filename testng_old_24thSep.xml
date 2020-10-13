@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.mobileAutomation.ExtentListeners"></listener>
+<!-- <listener class-name="TestNG.Transform"></listener> -->
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+         <class name="com.mobileAutomation.Common">
+      <methods>
+         <include name="TC_01_Verify_LaunchApp" />
+        </methods>
+      </class> 
+      <class name="com.mobileAutomation.OnboardingFF">
+      <methods>
+      	<include name="TC1_02_PHB_Click_Showcase" />
+        <include name="TC1_03_PHB_Click_Onboarding" />
+        <include name="TC1_04_PHB_What_should_we_call_you" />
+        <include name="TC1_05_PHB_Gender_selection_Female" />
+        <include name="TC1_06_PHB_Click_We_are_Planning_to_have_a_baby" />
+        <include name="TC1_07_PHB_How_long_have_you_been_trying" />
+        <include name="TC1_08_PHB_Click_Next" />
+        <include name="TC1_09_PHB_Is_this_your_first_child" />
+        <include name="TC1_10_PHB_Lastly_how_old_are_you" />
+        <include name="TC1_11_PHB_Select_Interests" />
+              
+        <include name="TC2_01_PRG_Click_Showcase" />
+        <include name="TC2_02_PRG_Click_onboarding" />
+        <include name="TC2_03_PRG_What_should_we_call_you" />
+        <include name="TC2_04_PRG_Gender_selection_Female" />
+        <include name="TC2_05_PRG_Click_We_are_pregnant" />
+        <include name="TC2_06_PRG_Date_Selection" />
+        <include name="TC2_07_PRG_Click_Next" />
+        <include name="TC2_08_PRG_Is_this_your_first_child" />
+        <include name="TC2_09_PRG_Lastly_how_old_are_you" />
+        <include name="TC2_10_PRG_Select_Interests" />
+              
+        <include name="TC3_01_NB_Click_Showcase" />
+        <include name="TC3_02_NB_Click_onboarding" />
+        <include name="TC3_03_NB_What_should_we_call_you" />
+        <include name="TC3_04_NB_Gender_selection_Female" />
+        <include name="TC3_05_NB_We_have_a_newborn" />
+        <include name="TC3_06_NB_child_Gender_selection" />
+        <include name="TC3_07_NB_Date_Selection" />
+        <include name="TC3_08_NB_Click_Next" />
+        <include name="TC3_09_NB_Lastly_how_old_are_you" />
+        <include name="TC3_10_NB_Select_Interests" />
+            
+		<include name="TC4_01_CC_Click_Showcase" />
+		<include name="TC4_02_CC_Click_Onboarding" />
+		<include name="TC4_03_CC_What_should_we_call_you" />
+		<include name="TC4_04_CC_Gender_selection_Female" />
+		<include name="TC4_05_CC_Click_We_have_a_child_children" />
+		<include name="TC4_06_CC_How_many_kids_do_you_have" />
+		<include name="TC4_07_CC_Click_Next" />
+		<include name="TC4_08_CC_How_old_are_your_kids" />
+		<include name="TC4_09_CC_Click_Next" />
+		<include name="TC4_10_CC_Lastly_how_old_are_you" />
+		<include name="TC4_11_CC_Select_Interests" />
+				
+		</methods>
+		</class> 
+		<class name="com.mobileAutomation.OnboardingMF">
+      	<methods>
+      	<include name="TC1_02_PHB_Click_Showcase" />
+        <include name="TC1_03_PHB_Click_Onboarding" />
+        <include name="TC1_04_PHB_What_should_we_call_you" />
+        <include name="TC1_05_PHB_Gender_selection_Male" />
+        <include name="TC1_06_PHB_Click_We_are_Planning_to_have_a_baby" />
+        <include name="TC1_07_PHB_How_long_have_you_been_trying" />
+        <include name="TC1_08_PHB_Click_Next" />
+        <include name="TC1_09_PHB_Is_this_your_first_child" />
+        <include name="TC1_10_PHB_Lastly_how_old_are_you" />
+        <include name="TC1_11_PHB_Select_Interests" />
+              
+        <include name="TC2_01_PRG_Click_Showcase" />
+        <include name="TC2_02_PRG_Click_onboarding" />
+        <include name="TC2_03_PRG_What_should_we_call_you" />
+        <include name="TC2_04_PRG_Gender_selection_Male" />
+        <include name="TC2_05_PRG_Click_We_are_pregnant" />
+        <include name="TC2_06_PRG_Date_Selection" />
+        <include name="TC2_07_PRG_Click_Next" />
+        <include name="TC2_08_PRG_Is_this_your_first_child" />
+        <include name="TC2_09_PRG_Lastly_how_old_are_you" />
+        <include name="TC2_10_PRG_Select_Interests" />
+              
+        <include name="TC3_01_NB_Click_Showcase" />
+        <include name="TC3_02_NB_Click_onboarding" />
+        <include name="TC3_03_NB_What_should_we_call_you" />
+        <include name="TC3_04_NB_Gender_selection_Male" />
+        <include name="TC3_05_NB_We_have_a_newborn" />
+        <include name="TC3_06_NB_child_Gender_selection" />
+        <include name="TC3_07_NB_Date_Selection" />
+        <include name="TC3_08_NB_Click_Next" />
+        <include name="TC3_09_NB_Lastly_how_old_are_you" />
+        <include name="TC3_10_NB_Select_Interests" />
+            
+		<include name="TC4_01_CC_Click_Showcase" />
+		<include name="TC4_02_CC_Click_Onboarding" />
+		<include name="TC4_03_CC_What_should_we_call_you" />
+		<include name="TC4_04_CC_Gender_selection_Male" />
+		<include name="TC4_05_CC_Click_We_have_a_child_children" />
+		<include name="TC4_06_CC_How_many_kids_do_you_have" />
+		<include name="TC4_07_CC_Click_Next" />
+		<include name="TC4_08_CC_How_old_are_your_kids" />
+		<include name="TC4_09_CC_Click_Next" />
+		<include name="TC4_10_CC_Lastly_how_old_are_you" />
+		<include name="TC4_11_CC_Select_Interests" />
+
+     </methods>
+      </class> 
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

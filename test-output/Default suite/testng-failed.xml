@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.mobileAutomation.Onboarding">
+        <methods>
+          <include name="TC2_04_Gender_selection_PRG"/>
+          <include name="TC4_02_onboarding_CC"/>
+          <include name="Interests_CC"/>
+          <include name="TC4_09_NEXT_CC_1"/>
+          <include name="TC3_09_Age_selection_NB"/>
+          <include name="TC1_03_onboarding_flow_for_PHB"/>
+          <include name="TC1_07_Date_Selection_PHB"/>
+          <include name="TC4_05_Arche_type_CC"/>
+          <include name="TC1_02_showcase_click_PHB"/>
+          <include name="TC3_03_what_should_we_call_you_NB"/>
+          <include name="TC2_08_child_selection_PRG"/>
+          <include name="TC4_06_Number_of_kids_CC"/>
+          <include name="TC1_11_Interests_PHB"/>
+          <include name="TC2_01_showcase_click_PRG"/>
+          <include name="TC3_08_NEXT_NB"/>
+          <include name="child_selection_CC"/>
+          <include name="TC1_10_Age_selection_PHB"/>
+          <include name="TC4_01_showcase_click_CC"/>
+          <include name="Age_selection_CC"/>
+          <include name="TC3_06_child_Gender_selection_NB"/>
+          <include name="TC1_09_child_selection_PHB"/>
+          <include name="TC4_08_Date_Selection_CC"/>
+          <include name="TC3_05_Arche_type_NB"/>
+          <include name="TC4_04_Gender_selection_CC"/>
+          <include name="TC2_06_Date_Selection_PRG"/>
+          <include name="TC3_02_onboarding_NB"/>
+          <include name="view_manage_profile"/>
+          <include name="child_selection_NB"/>
+          <include name="TC4_07_NEXT_CC"/>
+          <include name="TC1_08_NEXT_PHB"/>
+          <include name="TC1_04_what_should_we_call_you_PHB"/>
+          <include name="TC1_06_Arche_type_PHB"/>
+          <include name="TC2_03_what_should_we_call_you_PRG"/>
+          <include name="TC3_01_showcase_click_NB"/>
+          <include name="TC1_07_How_long_have_you_been_trying_PHB"/>
+          <include name="TC2_02_onboarding_PRG"/>
+          <include name="TC4_03_what_should_we_call_you_CC"/>
+          <include name="TC2_10_Interests_PRG"/>
+          <include name="TC3_04_Gender_selection_NB"/>
+          <include name="TC3_10_Interests_NB"/>
+          <include name="TC3_07_Date_Selection_NB"/>
+          <include name="TC2_09_Age_selection_PRG"/>
+          <include name="TC1_05_Gender_selection_PHB"/>
+          <include name="TC2_07_NEXT_PRG"/>
+          <include name="TC2_05_Arche_type_PRG"/>
+        </methods>
+      </class> <!-- com.mobileAutomation.Onboarding -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

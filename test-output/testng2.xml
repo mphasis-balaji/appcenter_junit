@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.mobileAutomation.ExtentListeners"></listener>
+<!-- <listener class-name="TestNG.Transform"></listener> -->
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+         <class name="com.mobileAutomation.Onboarding">
+      <methods>
+         <include name="TC_01_Verify_LaunchApp" />
+		<include name="TC1_02_showcase_click_PHB" />
+		<include name="TC1_03_onboarding_flow_for_PHB" />
+		<include name="TC1_04_what_should_we_call_you_PHB" />
+		<include name="TC1_05_Gender_selection_PHB" />
+		<include name="TC1_06_Arche_type_PHB" />
+		<exclude name="TC1_07_Date_Selection_PHB" />
+		<include name="TC1_07_How_long_have_you_been_trying_PHB" />
+		<include name="TC1_08_NEXT_PHB" />
+		<include name="TC1_09_child_selection_PHB" />
+		<include name="TC1_10_Age_selection_PHB" />
+		<include name="TC1_11_Interests_PHB" />
+     </methods>
+      </class> 
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

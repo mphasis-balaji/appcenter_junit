@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="82" total="109" passed="27">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="110447" started-at="2020-09-28T14:11:58 IST" finished-at="2020-09-28T14:13:49 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="110447" started-at="2020-09-28T14:11:58 IST" finished-at="2020-09-28T14:13:49 IST">
+      <class name="com.mobileAutomation.Common">
+        <test-method status="PASS" signature="TC_01_Verify_LaunchApp()[pri:0, instance:com.mobileAutomation.Common@17c386de]" name="TC_01_Verify_LaunchApp" duration-ms="43822" started-at="2020-09-28T14:11:59 IST" finished-at="2020-09-28T14:12:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Verify_LaunchApp -->
+      </class> <!-- com.mobileAutomation.Common -->
+      <class name="com.mobileAutomation.OnboardingFF">
+        <test-method status="PASS" signature="TC1_02_PHB_Click_Showcase()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC1_02_PHB_Click_Showcase" duration-ms="288" started-at="2020-09-28T14:12:43 IST" finished-at="2020-09-28T14:12:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_02_PHB_Click_Showcase -->
+        <test-method status="PASS" signature="TC1_03_PHB_Click_Onboarding()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC1_03_PHB_Click_Onboarding" duration-ms="325" started-at="2020-09-28T14:12:44 IST" finished-at="2020-09-28T14:12:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_03_PHB_Click_Onboarding -->
+        <test-method status="PASS" signature="TC1_04_PHB_What_should_we_call_you()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC1_04_PHB_What_should_we_call_you" duration-ms="5101" started-at="2020-09-28T14:12:45 IST" finished-at="2020-09-28T14:12:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_04_PHB_What_should_we_call_you -->
+        <test-method status="PASS" signature="TC1_05_PHB_Gender_selection_Female()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC1_05_PHB_Gender_selection_Female" duration-ms="1220" started-at="2020-09-28T14:12:52 IST" finished-at="2020-09-28T14:12:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_05_PHB_Gender_selection_Female -->
+        <test-method status="PASS" signature="TC1_06_PHB_Click_My_partner_and_I_are_planning_to_have_a_baby()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC1_06_PHB_Click_My_partner_and_I_are_planning_to_have_a_baby" duration-ms="4406" started-at="2020-09-28T14:12:54 IST" finished-at="2020-09-28T14:12:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_06_PHB_Click_My_partner_and_I_are_planning_to_have_a_baby -->
+        <test-method status="PASS" signature="TC1_07_PHB_How_long_have_you_been_trying_to_conceive()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC1_07_PHB_How_long_have_you_been_trying_to_conceive" duration-ms="2909" started-at="2020-09-28T14:12:59 IST" finished-at="2020-09-28T14:13:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_07_PHB_How_long_have_you_been_trying_to_conceive -->
+        <test-method status="PASS" signature="TC1_08_PHB_Click_Next()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC1_08_PHB_Click_Next" duration-ms="139" started-at="2020-09-28T14:13:02 IST" finished-at="2020-09-28T14:13:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_08_PHB_Click_Next -->
+        <test-method status="PASS" signature="TC1_09_PHB_Is_this_your_first_child()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC1_09_PHB_Is_this_your_first_child" duration-ms="786" started-at="2020-09-28T14:13:03 IST" finished-at="2020-09-28T14:13:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_09_PHB_Is_this_your_first_child -->
+        <test-method status="PASS" signature="TC1_10_PHB_Lastly_how_old_are_you()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC1_10_PHB_Lastly_how_old_are_you" duration-ms="3176" started-at="2020-09-28T14:13:04 IST" finished-at="2020-09-28T14:13:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_10_PHB_Lastly_how_old_are_you -->
+        <test-method status="PASS" signature="TC1_11_PHB_Select_Interests()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC1_11_PHB_Select_Interests" duration-ms="4853" started-at="2020-09-28T14:13:08 IST" finished-at="2020-09-28T14:13:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_11_PHB_Select_Interests -->
+        <test-method status="PASS" signature="TC1_12_PHB_Click_Terms_Conditions()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC1_12_PHB_Click_Terms_Conditions" duration-ms="799" started-at="2020-09-28T14:13:14 IST" finished-at="2020-09-28T14:13:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_12_PHB_Click_Terms_Conditions -->
+        <test-method status="PASS" signature="TC1_13_PHB_Click_Continue()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC1_13_PHB_Click_Continue" duration-ms="281" started-at="2020-09-28T14:13:15 IST" finished-at="2020-09-28T14:13:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_13_PHB_Click_Continue -->
+        <test-method status="PASS" signature="TC1_14_PHB_Click_Terms_conditions_Close()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC1_14_PHB_Click_Terms_conditions_Close" duration-ms="720" started-at="2020-09-28T14:13:16 IST" finished-at="2020-09-28T14:13:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_14_PHB_Click_Terms_conditions_Close -->
+        <test-method status="PASS" signature="TC2_01_PRG_Click_Showcase()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC2_01_PRG_Click_Showcase" duration-ms="563" started-at="2020-09-28T14:13:18 IST" finished-at="2020-09-28T14:13:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_01_PRG_Click_Showcase -->
+        <test-method status="PASS" signature="TC2_02_PRG_Click_onboarding()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC2_02_PRG_Click_onboarding" duration-ms="482" started-at="2020-09-28T14:13:19 IST" finished-at="2020-09-28T14:13:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_02_PRG_Click_onboarding -->
+        <test-method status="PASS" signature="TC2_03_PRG_What_should_we_call_you()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC2_03_PRG_What_should_we_call_you" duration-ms="4514" started-at="2020-09-28T14:13:20 IST" finished-at="2020-09-28T14:13:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_03_PRG_What_should_we_call_you -->
+        <test-method status="PASS" signature="TC2_04_PRG_Gender_selection_Female()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC2_04_PRG_Gender_selection_Female" duration-ms="1075" started-at="2020-09-28T14:13:25 IST" finished-at="2020-09-28T14:13:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_04_PRG_Gender_selection_Female -->
+        <test-method status="PASS" signature="TC2_05_PRG_Click_My_partner_and_I_are_pregnant()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC2_05_PRG_Click_My_partner_and_I_are_pregnant" duration-ms="2409" started-at="2020-09-28T14:13:27 IST" finished-at="2020-09-28T14:13:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_05_PRG_Click_My_partner_and_I_are_pregnant -->
+        <test-method status="PASS" signature="TC2_06_PRG_Do_you_know_your_due_date()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC2_06_PRG_Do_you_know_your_due_date" duration-ms="4414" started-at="2020-09-28T14:13:30 IST" finished-at="2020-09-28T14:13:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_06_PRG_Do_you_know_your_due_date -->
+        <test-method status="PASS" signature="TC2_07_PRG_Click_Next()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC2_07_PRG_Click_Next" duration-ms="225" started-at="2020-09-28T14:13:35 IST" finished-at="2020-09-28T14:13:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_07_PRG_Click_Next -->
+        <test-method status="PASS" signature="TC2_08_PRG_Is_this_your_first_child_Select_Yes()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC2_08_PRG_Is_this_your_first_child_Select_Yes" duration-ms="899" started-at="2020-09-28T14:13:36 IST" finished-at="2020-09-28T14:13:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_08_PRG_Is_this_your_first_child_Select_Yes -->
+        <test-method status="PASS" signature="TC2_09_PRG_Lastly_how_old_are_you()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC2_09_PRG_Lastly_how_old_are_you" duration-ms="2872" started-at="2020-09-28T14:13:38 IST" finished-at="2020-09-28T14:13:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_09_PRG_Lastly_how_old_are_you -->
+        <test-method status="PASS" signature="TC2_10_PRG_Select_Interests()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC2_10_PRG_Select_Interests" duration-ms="3107" started-at="2020-09-28T14:13:41 IST" finished-at="2020-09-28T14:13:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_10_PRG_Select_Interests -->
+        <test-method status="PASS" signature="TC2_11_PRG_Click_Terms_Conditions()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC2_11_PRG_Click_Terms_Conditions" duration-ms="620" started-at="2020-09-28T14:13:45 IST" finished-at="2020-09-28T14:13:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_11_PRG_Click_Terms_Conditions -->
+        <test-method status="PASS" signature="TC2_12_PRG_Click_Continue()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC2_12_PRG_Click_Continue" duration-ms="197" started-at="2020-09-28T14:13:46 IST" finished-at="2020-09-28T14:13:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_12_PRG_Click_Continue -->
+        <test-method status="PASS" signature="TC2_13_PRG_Click_Terms_conditions_Close()[pri:0, instance:com.mobileAutomation.OnboardingFF@5af97850]" name="TC2_13_PRG_Click_Terms_conditions_Close" duration-ms="786" started-at="2020-09-28T14:13:47 IST" finished-at="2020-09-28T14:13:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_13_PRG_Click_Terms_conditions_Close -->
+      </class> <!-- com.mobileAutomation.OnboardingFF -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
